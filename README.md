@@ -1,1 +1,1 @@
-[포트폴리오 보러기기](portfolio-omega-nine-23.vercel.app)
+[포트폴리오 Vercel](https://portfolio-omega-nine-23.vercel.app)

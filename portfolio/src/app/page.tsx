@@ -82,7 +82,17 @@ export default function Home() {
         <Content
           title="피아노"
           subTitle="평소에 즐겨하는 게임이나 애니메이션에 나오는 음악 연주"
-          description="위드피아노에서 1년 동안 레슨을 받았고, 이후에는 스스로 연습하며 연주하고 있다. 피아노학원 연주회에 2번 참여하여 윤하의 사건의 지평선과 메이플스토리 아르카나 배경음악을 연주하였다. https://tv.naver.com/v/38070792 https://tv.naver.com/v/33841711"
+          description="위드피아노에서 1년 동안 레슨을 받았고, 이후에는 스스로 연습하며 연주하고 있다. 피아노학원 연주회에 2번 참여하여 윤하의 사건의 지평선과 메이플스토리 아르카나 배경음악을 연주하였다."
+          links={[
+            {
+              href: "https://tv.naver.com/v/38070792",
+              text: "윤하 - 사랑의 사건",
+            },
+            {
+              href: "https://tv.naver.com/v/33841711",
+              text: "메이플스토리 아르카나 배경음악",
+            },
+          ]}
         />
         <Content
           title="수영"
@@ -92,7 +102,17 @@ export default function Home() {
         <Content
           title="게임"
           subTitle="메이플스토리"
-          description="17년도부터 꾸준히 즐기는 게임이다. 내 캐릭터 정보이다. https://maple.gg/u/%EC%B5%B8%ED%95%B4. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 알림을 보내는 디스코드 봇도 만들어봤다. https://github.com/kaistlayner/discord"
+          description="17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 알림을 보내는 디스코드 봇도 만들어봤다."
+          links={[
+            {
+              href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",
+              text: "메이플 캐릭터 정보",
+            },
+            {
+              href: "https://github.com/kaistlayner/discord",
+              text: "디스코드 봇 private repo",
+            },
+          ]}
         />
       </Box>
     </Box>

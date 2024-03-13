@@ -2,8 +2,9 @@ import { Box } from "@mui/material";
 
 export default function Content({
   title,
+  subTitle,
   description,
-}: Readonly<{ title: string; description: string }>) {
+}: Readonly<{ title: string; subTitle: string; description?: string }>) {
   return (
     <Box
       sx={{
@@ -14,6 +15,7 @@ export default function Content({
       }}
     >
       <h1>{title}</h1>
+      <p>{subTitle}</p>
       <p>{description}</p>
     </Box>
   );

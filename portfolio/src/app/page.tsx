@@ -85,12 +85,12 @@ export default function Home() {
           description="위드피아노에서 1년 동안 레슨을 받았고, 이후에는 스스로 연습하며 연주하고 있다. 피아노학원 연주회에 2번 참여하여 윤하의 사건의 지평선과 메이플스토리 아르카나 배경음악을 연주하였다."
           links={[
             {
-              href: "https://tv.naver.com/v/38070792",
-              text: "윤하 - 사랑의 사건",
+              href: "https://tv.naver.com/v/33841711",
+              text: "윤하 - 사건의 지평선",
             },
             {
-              href: "https://tv.naver.com/v/33841711",
-              text: "메이플스토리 아르카나 배경음악",
+              href: "https://tv.naver.com/v/38070792",
+              text: "The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)",
             },
           ]}
         />

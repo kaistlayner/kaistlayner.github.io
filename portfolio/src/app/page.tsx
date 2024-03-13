@@ -33,8 +33,9 @@ export default function Home() {
   return (
     <Box sx={styles.wrapper}>
       <h1>조민준의 포트폴리오</h1>
-      기억에 남는 과목들
+
       <Box sx={styles.contentWrapper}>
+        기억에 남는 과목들
         <Content
           title="운영체제 및 실험"
           subTitle="핀토스 프로젝트"
@@ -80,29 +81,9 @@ export default function Home() {
       <Box sx={styles.contentWrapper}>
         취미 생활
         <Content
-          title="피아노"
-          subTitle="평소에 즐겨하는 게임이나 애니메이션에 나오는 음악 연주"
-          description="위드피아노에서 1년 동안 레슨을 받았고, 이후에는 스스로 연습하며 연주하고 있다. 피아노학원 연주회에 2번 참여하여 윤하의 사건의 지평선과 메이플스토리 아르카나 배경음악을 연주하였다."
-          links={[
-            {
-              href: "https://tv.naver.com/v/33841711",
-              text: "윤하 - 사건의 지평선",
-            },
-            {
-              href: "https://tv.naver.com/v/38070792",
-              text: "The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)",
-            },
-          ]}
-        />
-        <Content
-          title="수영"
-          subTitle="친구와 함께 주 4회 수영 수업"
-          description="유성구종합사회복지관에서 고등학교 친구와 초급반 수업을 듣고 있다. 수영을 통해 몸을 건강하게 유지하고, 친구와 함께 즐거운 시간을 보내고 있다."
-        />
-        <Content
           title="게임"
           subTitle="메이플스토리"
-          description="17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 알림을 보내는 디스코드 봇도 만들어봤다."
+          description="17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 알림을 보내는 디스코드 봇도 만들어서 같이 게임을 즐기는 길드원들과 같이 사용해봤다."
           links={[
             {
               href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",
@@ -113,6 +94,26 @@ export default function Home() {
               text: "디스코드 봇 private repo",
             },
           ]}
+        />
+        <Content
+          title="피아노"
+          subTitle="평소에 즐겨하는 게임이나 애니메이션에 나오는 음악 연주"
+          description="위드피아노에서 1년 동안 레슨을 받았고, 이후에는 스스로 연습하며 연주하고 있다. 피아노학원 연주회에 2번 참여하여 윤하의 사건의 지평선과 메이플스토리 아르카나 배경음악을 연주하였다."
+          links={[
+            {
+              href: "https://tv.naver.com/v/33841711",
+              text: "사건의 지평선 - 윤하",
+            },
+            {
+              href: "https://tv.naver.com/v/38070792",
+              text: "The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)",
+            },
+          ]}
+        />
+        <Content
+          title="수영"
+          subTitle="친구와 함께 주 4회 수영 수업"
+          description="유성구 종합사회복지관 수영장에서 고등학교 친구와 초급반 수업을 듣고 있다. 수영을 통해 몸을 건강하게 유지하고, 친구와 함께 즐거운 시간을 보내고 있다."
         />
       </Box>
     </Box>

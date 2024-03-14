@@ -74,7 +74,7 @@ export default function Home() {
         />
         <Content
           title="백엔드"
-          subTitle="expressJS, NestJS, mysql, AWS로 API 개발 및 배포"
+          subTitle="expressJS, knex, NestJS, prisma, mysql, AWS로 API 개발 및 배포"
           description="한게 많아서.. 나중에 써야지22"
         />
       </Box>
@@ -83,7 +83,7 @@ export default function Home() {
         <Content
           title="게임"
           subTitle="메이플스토리"
-          description="17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 알림을 보내는 디스코드 봇도 만들어서 같이 게임을 즐기는 길드원들과 같이 사용해봤다."
+          description="17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 알림을 보내는 디스코드 봇을 만들어 heroku에 배포해서 같이 게임을 즐기는 길드원들과 같이 사용해봤다."
           links={[
             {
               href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",

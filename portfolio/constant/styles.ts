@@ -7,6 +7,7 @@ export const defaultStyles = {
     justifyContent: "center",
     alignItems: "center",
     minHeight: "100vh",
+    boxSizing: "border-box",
     minWidth: "calc(100vw - 80px)",
     backgroundColor: colors.brightGray,
     p: "40px",
@@ -15,7 +16,7 @@ export const defaultStyles = {
     fontSize: "30px",
     fontWeight: "bold",
     alignSelf: "flex-start",
-    mb: "40px",
+    my: "40px",
   },
   listItemWrapper: {
     display: "flex",

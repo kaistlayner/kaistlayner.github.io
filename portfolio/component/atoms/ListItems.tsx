@@ -3,8 +3,7 @@
 import { Box } from "@mui/material";
 import { useState } from "react";
 import { mergeSx } from "../../utils/mui";
-import { defaultStyles } from "../../constant/styles";
-import { HistoryObject } from "../../constant";
+import { HistoryObject, defaultStyles, colors } from "../../constant";
 import Image from "next/image";
 
 const styles = {
@@ -50,7 +49,16 @@ export default function ListItems({
       <Box sx={defaultStyles.title}>{title}</Box>
       {contents.map(({ title, subTitle, description, links }, idx) => {
         return (
-          <Box sx={defaultStyles.listItemWrapper} key={title}>
+          <Box
+            sx={mergeSx([
+              defaultStyles.listItemWrapper,
+              curIndex == idx && {
+                backgroundColor: "white",
+                boxShadow: `0 0 10px white`,
+              },
+            ])}
+            key={title}
+          >
             <Box
               sx={defaultStyles.listItemTitle}
               onClick={() => onItemClick(idx)}
@@ -65,13 +73,13 @@ export default function ListItems({
               <Box>{curIndex != idx ? "↓" : "↑"}</Box>
             </Box>
             <Box
-              sx={mergeSx([
+              sx={[
                 defaultStyles.listItemContent,
                 curIndex != idx && {
                   fontSize: 0,
                   p: 0,
                 },
-              ])}
+              ]}
             >
               {description}
               {links && (

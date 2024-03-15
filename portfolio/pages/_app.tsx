@@ -1,4 +1,4 @@
-import { AppContext, AppInitialProps, AppProps } from "next/app";
+import { AppProps } from "next/app";
 import Layout from "../component/Layout";
 import "../global.scss";
 

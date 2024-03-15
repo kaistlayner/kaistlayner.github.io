@@ -47,9 +47,12 @@ export default function ListItems({
             >
               <Box>
                 {title}
-                {subTitle && ` (${subTitle})`}
+                {subTitle && (
+                  <Box sx={{ mt: "0.5em", fontSize: "0.7em" }}>{subTitle}</Box>
+                )}
               </Box>
-              <Box>↓</Box>
+
+              <Box>{curIndex != idx ? "↓" : "↑"}</Box>
             </Box>
             <Box
               sx={mergeSx([

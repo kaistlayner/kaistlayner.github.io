@@ -92,8 +92,8 @@ export default function ListItems({
                           <Image
                             src={image}
                             alt=""
-                            width={400}
-                            height={curIndex == idx ? 300 : 0}
+                            width={500}
+                            height={curIndex == idx ? 400 : 0}
                             onClick={() => window.open(href)}
                           />
                         )}

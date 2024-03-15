@@ -45,6 +45,7 @@ export const defaultStyles = {
   },
   listItemContent: {
     display: "flex",
+    flexDirection: "column",
     justifyContent: "left",
     alignItems: "center",
     width: "100%",

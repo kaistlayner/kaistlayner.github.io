@@ -63,12 +63,12 @@ export const hobbyContents: LectureObject[] = [
       "17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 ,알림을 보내는 디스코드 봇을 만들어 heroku에 배포해서 같이 게임을 즐기는 길드원들과 같이 사용해봤다.",
     links: [
       {
-        href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",
-        text: "메이플 캐릭터 정보",
+        href: "https://github.com/kaistlayner/discord",
+        text: "디스코드 봇 github",
       },
       {
-        href: "https://github.com/kaistlayner/discord",
-        text: "디스코드 봇 repo",
+        href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",
+        text: "메이플 캐릭터",
       },
     ],
   },
@@ -80,11 +80,11 @@ export const hobbyContents: LectureObject[] = [
     links: [
       {
         href: "https://tv.naver.com/v/33841711",
-        text: "사건의 지평선 - 윤하",
+        text: "[사건의 지평선 - 윤하] 연주 영상",
       },
       {
         href: "https://tv.naver.com/v/38070792",
-        text: "The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)",
+        text: "[The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)] 연주 영상",
       },
     ],
   },
@@ -92,6 +92,6 @@ export const hobbyContents: LectureObject[] = [
     title: "수영",
     subTitle: "친구와 함께 주 4회 수영 수업",
     description:
-      "유성구 종합사회복지관 수영장에서 고등학교 친구와 초급반 수업을 듣고 있다. 수영을 통해 몸을 건강하게 유지하고, 친구와 함께 ,즐거운 시간을 보내고 있다. 분명 초급반인데.. 2주도 안되어서 자유형 배형을 배웠다..ㅎㅎ",
+      "유성구 종합사회복지관 수영장에서 고등학교 친구와 초급반 수업을 듣고 있다. 수영을 통해 몸을 건강하게 유지하고, 친구와 함께, 즐거운 시간을 보내고 있다. 분명 초급반인데.. 2주도 안되어서 자유형 배형을 배우고 있다.",
   },
 ];

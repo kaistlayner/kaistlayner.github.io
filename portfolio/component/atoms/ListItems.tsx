@@ -27,6 +27,7 @@ const styles = {
     justifyContents: "center",
     alignItems: "center",
     transition: "all 0.1s ease-in-out",
+    overflow: "hidden",
   },
 };
 
@@ -93,6 +94,7 @@ export default function ListItems({
                             alt=""
                             width={400}
                             height={curIndex == idx ? 300 : 0}
+                            onClick={() => window.open(href)}
                           />
                         )}
                         <Box sx={{ display: "flex", color: "blue" }}>

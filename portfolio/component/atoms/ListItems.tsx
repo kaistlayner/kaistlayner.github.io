@@ -27,6 +27,7 @@ const styles = {
     flexDirection: "column",
     justifyContents: "center",
     alignItems: "center",
+    transition: "all 0.1s ease-in-out",
   },
 };
 

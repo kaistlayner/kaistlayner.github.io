@@ -38,7 +38,7 @@ export default function ListItems({
   title: string;
   contents: HistoryObject[];
 }) {
-  const [curIndex, setCurIndex] = useState(-1);
+  const [curIndex, setCurIndex] = useState(0);
 
   const onItemClick = (idx: number) => {
     if (curIndex == idx) setCurIndex(-1);

@@ -1,0 +1,58 @@
+import { colors } from "./colors";
+
+export const defaultStyles = {
+  wrapper: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    minHeight: "100vh",
+    minWidth: "calc(100vw - 80px)",
+    backgroundColor: colors.brightGray,
+    p: "40px",
+  },
+  title: {
+    fontSize: "30px",
+    fontWeight: "bold",
+    alignSelf: "flex-start",
+    mb: "40px",
+  },
+  listItemWrapper: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    height: "100%",
+    backgroundColor: "white",
+    border: "1px solid #f9f9f9",
+    borderRadius: "4px",
+    p: "20px",
+    pt: 0,
+    boxSizing: "border-box",
+  },
+  listItemTitle: {
+    mt: "20px",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    fontSize: "20px",
+    fontWeight: "bold",
+    "&:hover": {
+      cursor: "pointer",
+    },
+  },
+  listItemContent: {
+    display: "flex",
+    justifyContent: "left",
+    alignItems: "center",
+    width: "100%",
+    fontSize: "17px",
+    transition: "all 0.3s ease-in-out",
+    overflow: "hidden",
+    textAlign: "left",
+    pt: "20px",
+    fontWeight: "500",
+  },
+};

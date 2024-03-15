@@ -1,4 +1,11 @@
-export const memorableLectures = [
+export interface LectureObject {
+  title: string;
+  subTitle: string;
+  description: string;
+  links?: Array<{ href: string; text: string }>;
+}
+
+export const memorableLectures: LectureObject[] = [
   {
     title: "운영체제 및 실험",
     subTitle: "핀토스 프로젝트",
@@ -19,7 +26,7 @@ export const memorableLectures = [
   },
 ];
 
-export const lastSemesterLectures = [
+export const lastSemesterLectures: LectureObject[] = [
   {
     title: "인공지능을 위한 시스템",
     subTitle: "GPU Systolic array를 이용한 행렬곱 가속화",
@@ -34,7 +41,7 @@ export const lastSemesterLectures = [
   },
 ];
 
-export const militaryServiceContents = [
+export const militaryServiceContents: LectureObject[] = [
   {
     title: "프론트엔드",
     subTitle:
@@ -48,7 +55,7 @@ export const militaryServiceContents = [
   },
 ];
 
-export const hobbyContents = [
+export const hobbyContents: LectureObject[] = [
   {
     title: "게임",
     subTitle: "메이플스토리",

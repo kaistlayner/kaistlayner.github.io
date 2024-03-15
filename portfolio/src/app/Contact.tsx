@@ -1,15 +1,30 @@
 import { Box } from "@mui/material";
+import { defaultStyles } from "./constant/styles";
+import { mergeSx } from "./utils/mui";
 
 interface ProjectsProps {}
+
+const styles = {
+  title: mergeSx([
+    defaultStyles.listItemTitle,
+    { "&:hover": { cursor: "unset" } },
+  ]),
+};
 
 export default function Projects(props: ProjectsProps) {
   const {} = props;
 
   return (
-    <Box>
-      Contact
-      <Box></Box>
-      <Box></Box>
+    <Box sx={defaultStyles.wrapper}>
+      <Box sx={defaultStyles.title}>Contact</Box>
+      <Box sx={defaultStyles.listItemWrapper}>
+        <Box sx={styles.title}>Email</Box>
+        <Box sx={defaultStyles.listItemContent}>layner@kaist.ac.kr</Box>
+      </Box>
+      <Box sx={defaultStyles.listItemWrapper}>
+        <Box sx={styles.title}>phone</Box>
+        <Box sx={defaultStyles.listItemContent}>010-2995-8501</Box>
+      </Box>
     </Box>
   );
 }

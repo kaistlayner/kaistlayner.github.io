@@ -1,3 +1,3 @@
 export const mergeSx = (styles: any) => {
-  return styles;
+  return Array.isArray(styles) ? Object.assign({}, ...styles) : styles;
 };

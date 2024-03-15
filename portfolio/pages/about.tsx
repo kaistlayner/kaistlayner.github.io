@@ -41,7 +41,7 @@ export default function About() {
           src="/work.jpg"
           alt=""
           fill
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "cover", pointerEvents: "none" }}
           priority
         />
       </Box>

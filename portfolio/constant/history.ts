@@ -46,12 +46,14 @@ export const militaryServiceContents: HistoryObject[] = [
     title: "프론트엔드",
     subTitle:
       "React, Material-UI, nextJS, TypeScript로 기획 구현 및 native 개발자와 협업",
-    description: "한게 많아서.. 나중에 써야지",
+    description:
+      "처음 프론트엔드를 react로 배우면서 웹 개발을 시작했다. bootstrap 및 .css 파일들로 이루어진 레포를 점차 리팩토링 하여 .scss 파일 및 mui 기반 컴포넌트들로 변경했다. 이후에는 nextJS로 SSR을 적용하고, TypeScript로 타입을 적용하였다. 이를 통해 레거시 코드를 제거하고, 타입을 적용하여 더욱 안정적인 코드를 작성할 수 있었다. 새로운 repository들도 만들면서 필요한 페이지들을 직접 AWS amplify에 추가하여 배포하였고, 배포나 속도에서 문제가 되는 부분들을 개선하였다. 이후에는 native 개발자와 협업도 하였다. 웹뷰로 보여지는 회사 서비스에 window 객체에 심어놓은 bridge를 이용해서 android, iOS으로 부터 로그인 토큰 값이나 기기 정보를 불러와 로그인 및 관련 팝업들을 구현을 하거나, native 앱의 뒤로가기를 실행하거나 다른 도메인의 웹뷰를 앱에 띄우는 작업을 진행하였다. 각 웹뷰에 ga를 추가하여 접속자 수나 클릭 동향도 확인해볼 수 있었다. 이를 통해 프론트엔드에 대해 자세히 이해하고, 실제로 운영되는 서비스를 유지 보수까지 해볼 수 있었다.",
   },
   {
     title: "백엔드",
     subTitle: "expressJS, knex, NestJS, prisma, mysql, AWS로 API 개발 및 배포",
-    description: "한게 많아서.. 나중에 써야지22",
+    description:
+      "프론트엔드 이후 백엔드에도 관심이 생겨, expressJS로 API를 개발하였다. 처음에는 orm으로 knex를 사용하여 mysql과 연동하였고, 이를 통해 필요한 api를 만들어 프론트에서 직접 사용하거나, 내가 맡고 있는 서비스에 대해 필요한 api를 다른 프론트 개발자에게 만들어주었다. 이후에는 NestJS로 API를 개발하였고, orm으로는 prisma를 이용하여 mysql과 연동하였다. 새롭게 들어갈 table들이나 column들이 db에 추가될 경우, table들이 복잡하게 연결되어 있고, 또 각 table과 연결된 api들이 많기 때문에 knex migration 코드나 prisma migrate 코드를 작성하여 안정적으로 변경점을 db에 적용시키거나 되돌릴 수 있도록 하였다. 백엔드는 AWS에서 배포 상태를 확인하거나, s3에서 이미지를 수정/추가하거나, 코드에서 logger로 찍은 로그를 확인하거나, 서버에 문제가 생겼을 때 서버를 특정 지점으로 돌리거나 재시작하는 등의 작업을 진행하였다. 다음에는 eb에서 api 요청 수에 따른 인스턴스 관리도 해보고 싶다. 백엔드에 대해서도 자세히 이해하게 되었고, 마찬가지로 실제로 운영되는 서비스를 유지 보수까지 해볼 수 있었다.",
   },
 ];
 

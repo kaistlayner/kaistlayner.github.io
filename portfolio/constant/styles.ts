@@ -17,7 +17,10 @@ export const defaultStyles = {
     fontSize: "30px",
     fontWeight: "bold",
     alignSelf: "flex-start",
-    my: "40px",
+    mt: "40px",
+    mb: "30px",
+    WebkitTextStrokeWidth: "1px",
+    WebkitTextStrokeColor: colors.darkGray,
   },
   listItemWrapper: {
     display: "flex",

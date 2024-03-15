@@ -4,8 +4,8 @@ import { useLayoutEffect, useState } from "react";
 import { BottomNavigation, BottomNavigationAction, Box } from "@mui/material";
 import PersonIcon from "@mui/icons-material/Person";
 import EngineeringIcon from "@mui/icons-material/Engineering";
-import SchoolIcon from "@mui/icons-material/school";
-import CallIcon from "@mui/icons-material/call";
+import SchoolIcon from "@mui/icons-material/School";
+import CallIcon from "@mui/icons-material/Call";
 
 const pages = ["/about", "/skills", "/projects", "/contact"];
 

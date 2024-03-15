@@ -22,7 +22,7 @@ export default function Contact(props: ContactProps) {
         <Box sx={defaultStyles.listItemContent}>layner@kaist.ac.kr</Box>
       </Box>
       <Box sx={defaultStyles.listItemWrapper}>
-        <Box sx={styles.title}>phone</Box>
+        <Box sx={styles.title}>Phone</Box>
         <Box sx={defaultStyles.listItemContent}>010-2995-8501</Box>
       </Box>
     </Box>

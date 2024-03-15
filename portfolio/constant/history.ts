@@ -2,7 +2,7 @@ export interface HistoryObject {
   title: string;
   subTitle?: string;
   description: string;
-  links?: Array<{ href: string; text: string }>;
+  links?: Array<{ href: string; text: string; image?: string }>;
 }
 
 export const memorableLectures: HistoryObject[] = [
@@ -63,12 +63,14 @@ export const hobbyContents: HistoryObject[] = [
       "17년도부터 꾸준히 즐기는 게임이다. 이 밖에도 경뿌나 이벤트 버프를 제때 받기 위해서, 채팅으로 설정한 시간마다 디스코드 채널에 ,알림을 보내는 디스코드 봇을 만들어 heroku에 배포해서 같이 게임을 즐기는 길드원들과 같이 사용해봤다.",
     links: [
       {
-        href: "https://github.com/kaistlayner/discord",
-        text: "디스코드 봇 github",
-      },
-      {
         href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",
         text: "메이플 캐릭터",
+        image: "/maple.png",
+      },
+      {
+        href: "https://github.com/kaistlayner/discord",
+        text: "디스코드 봇 github",
+        image: "/discord.png",
       },
     ],
   },
@@ -81,10 +83,12 @@ export const hobbyContents: HistoryObject[] = [
       {
         href: "https://tv.naver.com/v/33841711",
         text: "[사건의 지평선 - 윤하] 연주 영상",
+        image: "/piano1.png",
       },
       {
         href: "https://tv.naver.com/v/38070792",
         text: "[The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)] 연주 영상",
+        image: "/piano3.png",
       },
     ],
   },

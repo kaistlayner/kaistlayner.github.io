@@ -8,9 +8,10 @@ export const defaultStyles = {
     alignItems: "center",
     minHeight: "100vh",
     boxSizing: "border-box",
-    minWidth: "calc(100vw - 80px)",
+    minWidth: "calc(100vw - 240px)",
     backgroundColor: colors.brightGray,
     p: "40px",
+    px: "120px",
   },
   title: {
     fontSize: "30px",

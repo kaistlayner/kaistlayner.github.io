@@ -1,10 +1,10 @@
 "use client";
 
 import { Box } from "@mui/material";
-import { skill, colors } from "./constant";
+import { skill } from "../constant";
 import { useState } from "react";
-import { mergeSx } from "./utils/mui";
-import { defaultStyles } from "./constant/styles";
+import { mergeSx } from "../utils/mui";
+import { defaultStyles } from "../constant/styles";
 
 interface SkillsProps {}
 

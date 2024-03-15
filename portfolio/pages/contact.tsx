@@ -1,8 +1,8 @@
 import { Box } from "@mui/material";
-import { defaultStyles } from "./constant/styles";
-import { mergeSx } from "./utils/mui";
+import { defaultStyles } from "../constant/styles";
+import { mergeSx } from "../utils/mui";
 
-interface ProjectsProps {}
+interface ContactProps {}
 
 const styles = {
   title: mergeSx([
@@ -11,7 +11,7 @@ const styles = {
   ]),
 };
 
-export default function Projects(props: ProjectsProps) {
+export default function Contact(props: ContactProps) {
   const {} = props;
 
   return (

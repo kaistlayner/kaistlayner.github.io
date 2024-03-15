@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
-import { colors } from "./constant";
+import { colors } from "../constant";
 
-interface aboutMeProps {}
+interface AboutProps {}
 
 const styles = {
   wrapper: {
@@ -31,7 +31,7 @@ const styles = {
   },
 };
 
-export default function aboutMe(props: aboutMeProps) {
+export default function About(props: AboutProps) {
   const {} = props;
 
   return (

@@ -5,11 +5,10 @@ import {
   memorableLectures,
   lastSemesterLectures,
   militaryServiceContents,
-  colors,
-} from "./constant";
+} from "../constant";
 import { useState } from "react";
-import { mergeSx } from "./utils/mui";
-import { defaultStyles } from "./constant/styles";
+import { mergeSx } from "../utils/mui";
+import { defaultStyles } from "../constant/styles";
 
 interface ProjectsProps {}
 

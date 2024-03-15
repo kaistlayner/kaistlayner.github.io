@@ -47,7 +47,7 @@ export const defaultStyles = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "left",
-    alignItems: "center",
+    alignItems: "left",
     width: "100%",
     fontSize: "17px",
     transition: "all 0.3s ease-in-out",

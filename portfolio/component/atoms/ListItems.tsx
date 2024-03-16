@@ -13,7 +13,6 @@ const styles = {
     width: "100%",
     a: {
       display: "block",
-      color: "blue",
       textDecoration: "none",
       "&:hover": {
         textDecoration: "underline",
@@ -25,7 +24,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     justifyContents: "center",
-    alignItems: "center",
+    alignItems: "flex-start",
     transition: "all 0.1s ease-in-out",
     overflow: "hidden",
   },
@@ -98,9 +97,8 @@ export default function ListItems({
                           />
                         )}
                         <Box sx={{ display: "flex", color: "blue" }}>
-                          ▶&nbsp;&nbsp;
                           <a href={href} target="_blank">
-                            {text}
+                            ▶&nbsp;&nbsp;{text}
                           </a>
                         </Box>
                       </Box>

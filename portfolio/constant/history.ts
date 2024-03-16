@@ -11,12 +11,24 @@ export const memorableLectures: HistoryObject[] = [
     subTitle: "핀토스 프로젝트",
     description:
       "방학때부터 미리 프로젝트를 준비하여, 작은 os라는 뜻의 pintOS 프로젝트를 2인에서 진행하였습니다. 처음으로 큰 규모의 코드를 접하는 경험이었습니다. 초반부에는 sleep 상태인 thread를 깨우거나 thread 사이의 우선순위에 따라 scheduling 하는 과제였고, 그 뒤에는 virtual memory와 file system을 구현하는 과제였습니다. 함수 호출이나 parameter 전달을 위해 virtual memory에 stack memory를 할당해서 변수들과 return address 등을 복사해서 포인터로 stack 안에 순서에 맞게 저장했고, process를 실행하거나 중지, 삭제 등을 하는 shell level의 권한이 필요한 action 들을 system call을 통해 호출하도록 구현했습니다.",
+    links: [
+      {
+        href: "https://github.com/kaistlayner/pintos",
+        text: "pintOS project github link",
+      },
+    ],
   },
   {
     title: "파이썬을 통한 자연언어처리",
     subTitle: "영화 대본에서 등장인물 별 성격 클러스터링",
     description:
       "여러 영화의 대본을 통해 등장인물의 대사를 수집하여, 각 등장인물의 대사를 통해 성격을 분석하고, 클러스터링을 통해 성격을 분류하였습니다. 같은 배우가 연기한 등장인물이 비슷한 성격을 가지는지에 대한 가설을 세우고, 이를 통해 성격을 분류하였습니다. 하지만 클러스터링 한 결과, 배우와 관계 없이 같은 영화에 있는 등장인물들이 같은 클러스터에 모였습니다. 아무래도 대본에는 목소리나 억양, 몸짓에 대한 언급이 자세하지 않았을 뿐더러, 영화별로 고유의 분위기가 더 강하게 적용된다는 것으로 결론이 났습니다.",
+    links: [
+      {
+        href: "https://github.com/kaistlayner/nlp-with-python",
+        text: "nlp team project github link",
+      },
+    ],
   },
   {
     title: "컴퓨터 그래픽스 개론",

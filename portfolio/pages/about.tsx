@@ -7,6 +7,7 @@ const styles = {
     display: "flex",
     backgroundColor: colors.navy,
     minHeight: "100vh",
+    minWidth: "calc(100vw - 240px)",
   },
   aboutWrapper: {
     boxSizing: "border-box",

@@ -7,6 +7,17 @@ import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { usePathname } from "next/navigation";
 import { pages } from "../constant";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "조민준의 포트폴리오",
+  description: "카이스트 16학번 조민준의 포트폴리오입니다.",
+  openGraph: {
+    title: "조민준의 포트폴리오",
+    description: "카이스트 16학번 조민준의 포트폴리오입니다.",
+    images: ["/work.jpg"],
+  },
+};
 
 const roboto = Roboto({ weight: "400", subsets: ["latin"] });
 
@@ -50,7 +61,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   return (
     <main className={roboto.className}>
-      <title>조민준의 포트폴리오</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <Box sx={styles.wrapper}>
         <Box sx={{ display: "flex", position: "relative" }}>
           <Box

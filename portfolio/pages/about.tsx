@@ -39,7 +39,7 @@ export default function About() {
     <Box sx={styles.wrapper}>
       <Box sx={styles.imageWrapper}>
         <Image
-          src="/work.jpg"
+          src="/images/work.jpg"
           alt=""
           fill
           style={{ objectFit: "cover", pointerEvents: "none" }}

@@ -67,12 +67,12 @@ export const hobbyContents: HistoryObject[] = [
       {
         href: "https://maple.gg/u/%EC%B5%B8%ED%95%B4",
         text: "나의 메이플 캐릭터",
-        image: "/maple.png",
+        image: "/images/maple.png",
       },
       {
         href: "https://github.com/kaistlayner/discord",
         text: "디스코드 봇 github",
-        image: "/discord.png",
+        image: "/images/discord.png",
       },
     ],
   },
@@ -85,12 +85,12 @@ export const hobbyContents: HistoryObject[] = [
       {
         href: "https://tv.naver.com/v/33841711",
         text: "[사건의 지평선 - 윤하] 연주 영상",
-        image: "/piano1.png",
+        image: "/images/piano1.png",
       },
       {
         href: "https://tv.naver.com/v/38070792",
         text: "[The tune of the azure light 2 - Maplestory OST (메이플스토리 아르카나 배경음악)] 연주 영상",
-        image: "/piano3.png",
+        image: "/images/piano3.png",
       },
     ],
   },
@@ -103,7 +103,7 @@ export const hobbyContents: HistoryObject[] = [
       {
         href: "http://yuseongswc.or.kr/page.php?idx=0401",
         text: "유성구 종합사회복지관 수영장",
-        image: "/swim.jpg",
+        image: "/images/swim.jpg",
       },
     ],
   },

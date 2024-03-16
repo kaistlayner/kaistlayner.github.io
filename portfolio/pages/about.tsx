@@ -16,6 +16,7 @@ const styles = {
     justifyContent: "center",
     color: "white",
     p: "60px",
+    flex: "1",
   },
   title: {
     fontSize: "40px",
@@ -29,7 +30,8 @@ const styles = {
     py: "10px",
   },
   imageWrapper: {
-    width: "86.07%",
+    display: "flex",
+    flex: "2.1618",
     position: "relative",
   },
 };
